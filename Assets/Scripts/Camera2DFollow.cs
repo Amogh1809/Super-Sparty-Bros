@@ -31,7 +31,7 @@ namespace UnityStandardAssets._2D
 			}
 
 			if (target==null)
-				Debug.LogError("Target not set on Camera2DFollow.");
+				Debug.LogError("Target not set on Camera2DFollow. Please add Player from inspector to follow.");
 
         }
 
